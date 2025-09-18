@@ -1,0 +1,18 @@
+git init                تهيئة مستودع Git جديد في المجلد الحالي
+git clone [URL]         نسخ (استنساخ) مستودع موجود من رابط
+git status              عرض حالة الملفات الحالية (متعدلة / مضافة)
+git add [file]          إضافة ملف أو أكثر للـ Staging Area
+git commit -m "رسالة"   حفظ التغييرات مع رسالة توضيحية
+git push                رفع التغييرات إلى المستودع البعيد (GitHub مثلاً)
+git pull                جلب آخر التحديثات من المستودع البعيد
+git branch              عرض أو إنشاء الفروع
+git checkout [branch]   التبديل إلى فرع آخر
+git merge [branch]      دمج فرع مع الفرع الحالي
+git log                 عرض سجل جميع الـ commits السابقة
+git remote -v           عرض عناوين المستودعات البعيدة المرتبطة
+git fetch               جلب التحديثات بدون دمجها تلقائياً
+git reset --hard        إرجاع المشروع لحالة commit معينة (حذف التغييرات)
+git revert [commit]     التراجع عن commit معين بإنشاء commit عكسي
+git stash               حفظ التغييرات مؤقتاً بدون commit
+git stash pop           استرجاع التغييرات المحفوظة مؤقتاً
+git diff                عرض الفرق بين الملفات الحالية والسابقة
